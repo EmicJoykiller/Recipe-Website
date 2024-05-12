@@ -1,0 +1,16 @@
+.featured-recipe {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #fff;
+    text-align: center; /* Centraliza o texto */
+  }
+  
+  .featured-recipe img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  

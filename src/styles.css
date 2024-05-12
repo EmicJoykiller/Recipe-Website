@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', Arial, sans-serif; /* A more modern font choice */
+  background-color: #fafafa; /* A softer background color */
+  color: #333; /* Darker text for better readability */
+  line-height: 1.6; /* Improve text readability */
+}
+
+.container {
+  max-width: 1200px; /* Limit the width for large screens */
+  margin: 2rem auto;
+  padding: 0 20px;
+}
+
+.nav {
+  background-color: #0d0d0e; 
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2); /* Add some depth */
+}
+
+.site-title {
+  font-weight: bold;
+  letter-spacing: -1px; /* Tighten up the letter spacing for the title */
+  margin-right: auto;
+}
+
+.nav ul {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  padding: 0; 
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px; /* Rounded edges for links */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.nav a:hover, .nav li.active a {
+  background-color: #0056b3; /* Darker blue on hover/active */
+}
+
+.recipe-card {
+  width: 100%;
+  max-width: 600px; /* Set a max width for recipe cards */
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  border-radius: 10px; /* Rounded corners for the cards */
+  overflow: hidden; /* Ensures no overflow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+}
+
+.recipe-card:hover {
+  transform: translateY(-5px); /* Slight raise */
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15); /* Enhanced shadow on hover */
+}
+
+.recipe-image-container {
+  width: 100%;
+  overflow: hidden; /* Ensure the image fits well */
+}
+
+.recipe-image {
+  display: block;
+  width: 100%; /* Ensure image fills the container */
+  height: auto;
+  transition: transform 0.3s ease; /* Smooth zoom on hover */
+}
+
+.recipe-image:hover {
+  transform: scale(1.05); /* Zoom effect on hover */
+}
+
+.recipe-text {
+  text-align: left; /* Align text to the left for a more natural reading flow */
+  margin-top: 20px;
+}
+
+.like-dislike-container {
+  justify-content: space-around;
+}
+
+button {
+  font-weight: bold; /* Make button text bold */
+  transition: background-color 0.2s ease, transform 0.2s ease; /* Transition for hover states */
+}
+
+button:hover {
+  background-color: #003975;
+  transform: scale(1.1); /* Slightly enlarge buttons on hover */
+}
+
+.center-text {
+  text-align: center; 
+  margin-top: 50px; 
+}
+
+.logoutButton {
+  padding: 8px 12px;
+  background-color: #f44336; /* Cor de fundo vermelha */
+  color: white; /* Texto branco */
+  border: none; /* Sem borda */
+  border-radius: 5px; /* Bordas arredondadas */
+  cursor: pointer; /* Cursor do mouse como ponteiro */
+  margin-left: 10px; /* Margem à esquerda para espaçamento */
+  transition: background-color 0.3s; /* Efeito suave ao mudar a cor de fundo */
+}
+
+.logoutButton:hover {
+  background-color: #c53727; /* Cor mais escura ao passar o mouse */
+}
