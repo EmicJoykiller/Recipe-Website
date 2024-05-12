@@ -68,3 +68,42 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+Technologies Used:
+
+HTML5: Provides the structure for the web pages.
+CSS3: Styles the layout, design, and appearance of the website.
+JavaScript: Adds interactivity and functionality to the website.
+React.js: Used for building user interfaces and managing components.
+Features Overview:
+
+User Authentication:
+
+Users can sign up for an account using their email address and password.
+Existing users can log in securely to access their accounts.
+Profile Creation:
+
+Upon signing up, users can create their profiles.
+Profile creation includes options to add a profile picture, bio, and other personal details.
+Recipe Upload:
+
+Authenticated users can upload their own recipes to share with the community.
+Recipe upload includes fields for recipe name, ingredients, instructions, cooking time, etc.
+Users can also upload images of their dishes to accompany the recipes.
+Recipe Discovery:
+
+The website features a browse/search functionality for users to discover new recipes.
+Recipes are categorized based on cuisine, dietary preferences, meal type, etc.
+Users can rate and review recipes, as well as save them to their favorites.
+Implementation Details:
+
+Frontend: The frontend of the website is built using React.js, allowing for a dynamic and responsive user interface. HTML and CSS are used for structuring and styling the components respectively.
+
+Backend: The backend is developed using Node.js and Express.js for handling server-side logic, user authentication, and API endpoints for CRUD operations on recipes.
+
+Database: MongoDB is used as the database to store user information, recipes, and related data. It provides scalability and flexibility for managing recipe data efficiently.
+
+Conclusion:
+
+This recipe sharing website combines the power of HTML, CSS, JavaScript, and React.js to deliver a user-friendly and feature-rich platform for cooking enthusiasts to connect, share their culinary creations, and explore a world of delicious recipes.
